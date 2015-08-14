@@ -17,13 +17,13 @@ The real strength of learning Unix is that most of these commands can be combine
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
-| I       | 9:00-10:15 AM  | **Version Control with Git** | 
+| I       | 9:00-10:15 AM  | **Setup and Motivation** | 
 |         | 10:15-10:30AM  | Coffee Break             | 
-| II      | 10:30-12:00 AM | **Collaborating with GitHub & BitBucket**       | 
+| II      | 10:30-12:00 AM | **Beginning Unix**       | 
 |         | 12:00-1:00PM   | Lunch                    | 
-| III     | 1:00-2:15 PM   | **Concepts in Cluster Computing**    | 
+| III     | 1:00-2:15 PM   | **Working with Unix**    | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
-| IV      | 2:30-4:00 PM   | **Parallelization and Job Management**   | 
+| IV      | 2:30-4:00 PM   | **How to Get Working**   | 
 
 
 <br>

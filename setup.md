@@ -5,7 +5,7 @@ permalink: /setup/
 ---
 
 # Software Requirements & Setup Instructions
-To fully participate in this boot camp, you will need access to the software described below on your own laptop (N.B. You will likely need Administer privileges/permissions to install some of these). 
+To fully participate in this boot camp, you will need access to the software described below on your own laptop (N.B. You will likely need _Administer privileges/permissions_ to install some of these). 
 
 <br>
 
@@ -56,11 +56,11 @@ Regardless of how you choose to install it, please make sure you install Python 
 
 We will teach Python using the IPython notebook, a programming environment that runs in a web browser. For this to work you will need a reasonably up-to-date browser. The current versions of the Chrome, Safari and Firefox browsers are all supported (some older browsers, including Internet Explorer version 9 and below, are not).
 
-**Windows:** Download and install Anaconda.
-Download the default Python 2 installer (do not follow the link to version 3). Use all of the defaults for installation except make sure to check Make Anaconda the default Python.
+**Windows:** Download and install [Anaconda](https://store.continuum.io/cshop/anaconda/).
+Download the default Python 2 installer (do not follow the link to version 3). Use all of the defaults for installation except make sure to check _Make Anaconda the default Python_.
 
-**Mac OS X:** Download and install Anaconda.
+**Mac OS X:** Download and install [Anaconda](https://store.continuum.io/cshop/anaconda/).
 Download the default Python 2 installer (do not follow the link to version 3). Use all of the defaults for installation.
 
-**Linux:** We recommend the all-in-one scientific Python installer Anaconda.
+**Linux:** We recommend the all-in-one scientific Python installer [Anaconda](http://continuum.io/downloads.html).
 
