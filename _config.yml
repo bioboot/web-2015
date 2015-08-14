@@ -1,0 +1,14 @@
+# Site settings
+title: Biocomputing Bootcamp
+email: bjgrant@umich.edu
+description: > # this means to ignore newlines until "baseurl:"
+   A short course introducing the computational tools, 
+   techniques and best practices that foster reproducible research 
+   in bioinformatics, genome informatics and biostatistics.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: bioboot
+github_username:  bioboot
+
+# Build settings
+markdown: kramdown
