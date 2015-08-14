@@ -30,8 +30,27 @@ content to the day{2,3,4,5}.md files and create new files in the **class-materia
 directory (i.e. add lecture slides, handouts, cheat-sheets etc.)
 
 Please remember that all content is on the **gh-pages** branch! 
-So you will want to be working on this branch and push back to this branch, i.e.:
+So you will want to be working on this branch and push back to this branch.
 
+A typical workflow for folks that have been added as **"Collaborators"** would look something like this:
+
+	## One time only clone
+	git clone https://github.com/bioboot/web-2015.git
+	cd web-2015
+
+	## Edit your files (e.g. day2.md)
+	vi day2.md
+
+	## Check changes localy
+	jekyll serve
+
+	## Pull recent changes
+	git pull origin gh-pages
+
+	## Stage, commit and push your changes
+	git status
+	git add day2.md
+	git commit -m "Your msg about changes"
 	git push origin gh-pages
 
 
