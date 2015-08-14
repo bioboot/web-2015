@@ -12,7 +12,7 @@ To fully participate in this boot camp, you will need access to the software des
 ### The Bash Shell
 Bash is a commonly-used shell that gives you the power to do simple tasks more quickly.
 
-**Windows:** Install [MobaXterm](http://mobaxterm.mobatek.net), an enhanced terminal for Windows. Once installed, please visit [http://mobaxterm.mobatek.net/plugins.html](http://mobaxterm.mobatek.net/) and obtain the **Git plugin** and put it in the same directory as your MobaXterm executable (Typically something like `C:\Program Files (x86)\Mobatek\MobaXterm Personal Edition`) and eestart MobaXterm.
+**Windows:** Install [MobaXterm](http://mobaxterm.mobatek.net), an enhanced terminal for Windows. Once installed, please visit [http://mobaxterm.mobatek.net/plugins.html](http://mobaxterm.mobatek.net/) and obtain the **Git plugin** and put it in the same directory as your MobaXterm executable (Typically something like `C:\Program Files (x86)\Mobatek\MobaXterm Personal Edition`) and restart MobaXterm.
 
 **Mac OS X:** You do not need to install anything. You can access bash from the **Terminal** (found in **/Applications/Utilities**). You may want to keep Terminal in your dock for this class.
 
