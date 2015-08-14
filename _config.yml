@@ -2,11 +2,12 @@
 title: Biocomputing Bootcamp
 email: bjgrant@umich.edu
 description: > # this means to ignore newlines until "baseurl:"
-   A short course introducing the computational tools, 
-   techniques and best practices that foster reproducible research 
-   in bioinformatics, genome informatics and biostatistics.
+   A short course at the University of Michigan introducing  
+   computational tools, techniques and best practices that foster 
+   reproducible research in bioinformatics, genome informatics 
+   and biostatistics.
 baseurl: "/web-2015" # the subpath of your site, e.g. /blog/
-url: "http://bioboot.github.io/web-2015" # the base hostname & protocol for your site
+url: "http://bioboot.github.io/web-2015" 
 twitter_username: bioboot
 github_username:  bioboot
 

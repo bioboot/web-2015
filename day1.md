@@ -4,39 +4,72 @@ title: Day 1
 permalink: /day1/
 ---
 
-To fully participate in this boot camp, you will need access to the software described below. In addition, you will need an up-to-date web browser. 
+# Day 1. Introduction to UNIX
+Most bioinformatics happens on Unix/Linux platforms but why and how do we use Unix?
 
-### I)   **Setup and Motivation** [1:15 hr]  HJ & BG
-- Setup, HJ 
-- Motivation,  BG (10-15 mins)
+Increasingly, the raw output of biological research exists as _in silico_ data, usually in the form of large text files. Unix is particularly suited to working with such files and has many powerful (and flexible) commands that can process your data for you. The real strength of learning Unix is that most of these commands can be combined in an almost unlimited fashion. So if you can learn just five Unix commands, you will be able to do a lot more than just five things. Our objective here is to learn a subset of Unix and to become a productive Unix user without knowing or using every program and feature.
+
+<br>
+
+### Schedule:
+
+| Session | Time           | Topics                   | 
+| :-----: |:--------------:| :----------------------- | 
+| I       | 9:00-10:15 AM  | **Version Control with Git** | 
+|         | 10:15-10:30AM  | Coffee Break             | 
+| II      | 10:30-12:00 AM | **Collaborating with GitHub & BitBucket**       | 
+|         | 12:00-1:00PM   | Lunch                    | 
+| III     | 1:00-2:15 PM   | **Concepts in Cluster Computing**    | 
+|         | 2:15-2:30 PM   | Coffee Break             | 
+| IV      | 2:30-4:00 PM   | **Parallelization and Job Management**   | 
+
+
+<br>
+
+### Instructors:
+Barry Grant (BG)  
+Hui Jiang (HJ)
+
+<br>
+
+### Topics:
+
+#### I)   Setup and Motivation [1:15 hr]  HJ & BG
+- Setup
+- Motivation
  - Modularity, workflows, programmability, existing tools, and the Unix philosophy
-- Learning Objectives,  BG (2 mins)
+- Learning Objectives
 
 
-—- Coffee Break [15 mins] —
+—- Coffee Break [15 mins] —  
 
-### II)   **Beginning Unix** [1:30 hr]  HJ
+#### II)   Beginning Unix [1:30 hr]  HJ
 - Beginning Unix (shell vs terminal, common commands)
 - Understanding processes (Listing, suspending, killing and background processes)
 - File structure,
 - File permissions
 - Connecting to remote servers
-- File transfer [Q. Windows?]
+- File transfer
 
-—- Lunch Break [1 hr] —
+—- Lunch Break [1 hr] —  
 
-### III)   **Working with Unix** [1.15 hr]  BG  
+### III)   Working with Unix [1.15 hr] BG
 - File editing
 - Redirecting
 - Streams & Pipes 
 - Workflows for batch processing 
 
 
-—- Coffee Break [15 mins] —
+—- Coffee Break [15 mins] —  
 
-### IV)   **How to Get Working** [1.30 hr]
-- Project organization  BG (10 mins)   
-- Compiling software   HJ (20+ mins)
+### IV)   How to Get Working [1.30 hr] BG & HJ
+- Project organization   
+- Compiling software
 
 —- End/Wrap-Up —
 
+<br>
+
+### Reference material
+[Unix Referene Commands and Glossary](../class-material/unix-reference.html)  
+[Slides]()

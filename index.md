@@ -2,7 +2,7 @@
 layout: page
 ---
 
-### Introduction to Biocomputing (BIOS/BIOI/HG 606) 
+# Introduction to Biocomputing (BIOS/BIOI/HG 606) 
 
 **Overview:** This hands-on boot camp introduces computational tools, techniques and best practices to graduate students with limited prior experience.
 
@@ -10,13 +10,13 @@ layout: page
 
 **Audience:** Students with little/no UNIX experience and no formal programming training
 
-**Where:** Some room in Biostats, August 24-28, 9:00 AM - 4:00 PM 
+**Requirements:** Participants must bring a laptop with [specific software packages installed](/setup/).
 
-**Requirements:** Participants must bring a laptop with a few specific software packages installed (listed [here](/setup/)).
+**When:** August 24-28, 9:00 AM - 4:00 PM 
+
+**Where:** Some room in somewhere?
 
 <br>
-
-### Schedule:
 
 #### [Day 1. Introduction to UNIX](/day1/) 
 
@@ -36,13 +36,13 @@ layout: page
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
-| I       | 9:00-10:15 AM  | **Setup and Motivation** | 
+| I       | 9:00-10:15 AM  | **Programming Concepts** | 
 |         | 10:15-10:30AM  | Coffee Break             | 
-| II      | 10:30-12:00 AM | **Beginning Unix**       | 
+| II      | 10:30-12:00 AM | **Fundamentals of Data Structures**       | 
 |         | 12:00-1:00PM   | Lunch                    | 
-| III     | 1:00-2:15 PM   | **Working with Unix**    | 
+| III     | 1:00-2:15 PM   | **Control Structures and Functions**    | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
-| IV      | 2:30-4:00 PM   | **How to Get Working**   | 
+| IV      | 2:30-4:00 PM   | **Automating Data Processing and Visualization**   | 
 
 <br>
 
@@ -50,13 +50,13 @@ layout: page
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
-| I       | 9:00-10:15 AM  | **Setup and Motivation** | 
+| I       | 9:00-10:15 AM  | **Data Management and Manipulation Best Practices** | 
 |         | 10:15-10:30AM  | Coffee Break             | 
-| II      | 10:30-12:00 AM | **Beginning Unix**       | 
+| II      | 10:30-12:00 AM | **Data Formats and Conversions**       | 
 |         | 12:00-1:00PM   | Lunch                    | 
-| III     | 1:00-2:15 PM   | **Working with Unix**    | 
+| III     | 1:00-2:15 PM   | **Overview of Visualization Strategies and Practicality**    | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
-| IV      | 2:30-4:00 PM   | **How to Get Working**   | 
+| IV      | 2:30-4:00 PM   | **Applied visualization workflows**   | 
 
 <br>
 
@@ -64,13 +64,13 @@ layout: page
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
-| I       | 9:00-10:15 AM  | **Setup and Motivation** | 
+| I       | 9:00-10:15 AM  | **Version Control with Git** | 
 |         | 10:15-10:30AM  | Coffee Break             | 
-| II      | 10:30-12:00 AM | **Beginning Unix**       | 
+| II      | 10:30-12:00 AM | **Collaborating with GitHub & BitBucket**       | 
 |         | 12:00-1:00PM   | Lunch                    | 
-| III     | 1:00-2:15 PM   | **Working with Unix**    | 
+| III     | 1:00-2:15 PM   | **Concepts in Cluster Computing**    | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
-| IV      | 2:30-4:00 PM   | **How to Get Working**   | 
+| IV      | 2:30-4:00 PM   | **Parallelization and Job Management**   | 
 
 <br>
 
@@ -78,13 +78,13 @@ layout: page
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
-| I       | 9:00-10:15 AM  | **Setup and Motivation** | 
+| I       | 9:00-10:15 AM  | **Group Work**           | 
 |         | 10:15-10:30AM  | Coffee Break             | 
-| II      | 10:30-12:00 AM | **Beginning Unix**       | 
+| II      | 10:30-12:00 AM | **Group Work**           | 
 |         | 12:00-1:00PM   | Lunch                    | 
-| III     | 1:00-2:15 PM   | **Working with Unix**    | 
+| III     | 1:00-2:15 PM   | **Group Work**           | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
-| IV      | 2:30-4:00 PM   | **How to Get Working**   | 
+| IV      | 2:30-4:00 PM   | **Group Presentations**  | 
 
 
 <br>

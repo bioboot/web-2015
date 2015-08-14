@@ -1,14 +1,15 @@
 ---
 layout: page
-title: Requirements 
+title: Setup 
 permalink: /setup/
 ---
 
-To fully participate in this boot camp, you will need access to the software described below. In addition, you will need an up-to-date web browser. 
+## Software Requirements
+To fully participate in this boot camp, you will need access to the software described below on your own laptop (N.B. You will likely need Administer privileges/permissions to install some of these). 
 
 <br>
 
-#### The Bash Shell
+### The Bash Shell
 Bash is a commonly-used shell that gives you the power to do simple tasks more quickly.
 
 **Windows:** Install [mobaxterm](http://mobaxterm.mobatek.net), an enhanced terminal for Windows. Once installed, please visit http://mobaxterm.mobatek.net/plugins.html and obtain the Git plugin and put it in the same directory as your MobaXterm executable (Typically ????).
@@ -36,7 +37,7 @@ and for Fedora run
 
 <br>
 
-#### Text Editor
+### Text Editor
 When you're writing code, it's nice to have a text editor that is optimized for writing code, with features like automatic color-coding of key words. The default text editor on Mac OS X and Linux is usually set to Vim, which is not famous for being intuitive. if you accidentally find yourself stuck in it, try typing the **escape key**, followed by **:q!** (colon, lower-case 'q', exclamation mark), then hitting Return to return to the shell.
 
 **Windows:** nano is a basic editor and the default that instructors use in the workshop. To install it, download the [Windows installer](http://files.software-carpentry.org/SWCarpentryInstaller.exe) and double click on the file to run it. This installer requires an active internet connection.
@@ -48,7 +49,7 @@ When you're writing code, it's nice to have a text editor that is optimized for 
 
 <br>
 
-#### Python
+### Python
 Python is a popular language for scientific computing. Installing all of its scientific packages individually can be a bit difficult, so we recommend an all-in-one installer.
 
 Regardless of how you choose to install it, please make sure you install Python version 2.x and not version 3.x (e.g., 2.7 is fine but not 3.4). Python 3 introduced changes that will break some of the code we teach during the workshop.
