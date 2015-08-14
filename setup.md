@@ -4,7 +4,7 @@ title: Setup
 permalink: /setup/
 ---
 
-## Software Requirements
+## Software Requirements & Setup Instructions
 To fully participate in this boot camp, you will need access to the software described below on your own laptop (N.B. You will likely need Administer privileges/permissions to install some of these). 
 
 <br>

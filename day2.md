@@ -39,5 +39,6 @@ Add content for day here
 
 ### Reference material
 [Python Referene Commands and Glossary](../class-material/python-reference.html)  
+[Python Referene from Software Carpentry](http://software-carpentry.org/v5/novice/ref/03-python.html)  
 [Slides]()
 

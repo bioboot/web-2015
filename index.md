@@ -10,7 +10,7 @@ layout: page
 
 **Audience:** Students with little/no UNIX experience and no formal programming training
 
-**Requirements:** Participants must bring a laptop with [specific software packages installed](/setup/).
+**Requirements:** Participants must bring a laptop with [specific software packages installed]({{ site.baseurl }}/setup/).
 
 **When:** August 24-28, 9:00 AM - 4:00 PM 
 
@@ -18,7 +18,7 @@ layout: page
 
 <br>
 
-#### [Day 1. Introduction to UNIX](/day1/) 
+#### [Day 1. Introduction to UNIX]({{ site.baseurl }}/day1/) 
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
@@ -32,7 +32,7 @@ layout: page
 
 <br>
 
-#### [Day 2. Introduction to Programming](/day2/)
+#### [Day 2. Introduction to Programming]({{ site.baseurl }}/day2/)
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
@@ -46,7 +46,7 @@ layout: page
 
 <br>
 
-#### [Day 3. Data Formats and Visualization](/day3/) 
+#### [Day 3. Data Formats and Visualization]({{ site.baseurl }}/day3/) 
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
@@ -60,7 +60,7 @@ layout: page
 
 <br>
 
-#### [Day 4. Version Control and Cluster Computing](/day4/)
+#### [Day 4. Version Control and Cluster Computing]({{ site.baseurl }}/day4/)
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
@@ -74,7 +74,7 @@ layout: page
 
 <br>
 
-#### [Day 5. Unified Analytical Walk-through](/day5/) 
+#### [Day 5. Unified Analytical Walk-through]({{ site.baseurl }}/day5/) 
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
