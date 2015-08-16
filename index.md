@@ -8,7 +8,7 @@ layout: page
 
 **Description:** Concepts and tools covered include the Unix system, version control, data management, software compilation, task automation and cluster computing. Participants will be encouraged to help one another and to apply what they have learned to their own research problems. Our tools of choice will be Python (for programming), Git (for version control) and PBS (for cluster resource management). However, lessons learned should be widely applicable for those looking to incorporate more productive computational approaches into their daily research work.
 
-**Audience:** Students with little to no UNIX experience and no formal programming training
+**Audience:** Students with little to no UNIX experience and no formal programming training.
 
 **Requirements:** Participants must bring a laptop with [specific software packages installed]({{ site.baseurl }}/setup/).
 

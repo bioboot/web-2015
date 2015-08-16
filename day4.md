@@ -5,9 +5,11 @@ permalink: /day4/
 ---
 
 # Day 4. Version Control and Cluster Computing
-Version control is the lab notebook of the digital world: it's what professionals use to keep track of what they've done and to collaborate with other people. Every large software development project relies on it, and most programmers, data scientists and bioinformaticians use it for their small jobs as well. And it isn't just for software: research project material, books, courses (like this one), papers, small data sets, and anything that changes over time or needs to be shared can and should be stored in a version control system.
+Version control is the lab notebook of the digital world: it's what professionals use to keep track of what they've done and to collaborate with other people. Every large software development project relies on it, and most programmers, data scientists and bioinformaticians use it for their everyday work. It is important to note that version control is not just for software: research projects, books, courses (like this one), papers, small data sets, and anything that changes over time or needs to be shared can and should be stored in a version control system.
 
-Note about cluster computing here!!
+Today’s morning sessions with introduce [Git](https://git-scm.com/), currently the most popular version control system. We will learn how to perform common operations with Git that you’ll do every day. We will also cover the popular social code-hosting platforms [GitHub](https://github.com/) and [BitBucket](https://bitbucket.org/).
+
+Afternoon sessions will introduce cluster computing. Computer clusters typically aim to provide much faster processing speed, larger storage capacity, wider availability of resources and often unique computing capabilities. We will first introduce cluster computing concepts in general and how to use the [UM Flux cluster](http://arc-ts.umich.edu/flux/) in particular. Topics to be covered include a review of common parallel programming models and basic use of Flux; dependent and array scheduling; troubleshooting and analysis using checkjob, qstat, and other PBS tools.
 
 <br>
 
@@ -16,9 +18,9 @@ Note about cluster computing here!!
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
 | I       | 9:00-10:15 AM  | **Version Control with Git** | 
-|         | 10:15-10:30AM  | Coffee Break             | 
+|         | 10:15-10:30 AM | Coffee Break             | 
 | II      | 10:30-12:00 AM | **Collaborating with GitHub & BitBucket**       | 
-|         | 12:00-1:00PM   | Lunch                    | 
+|         | 12:00-1:00 PM  | Lunch                    | 
 | III     | 1:00-2:15 PM   | **Concepts in Cluster Computing**    | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
 | IV      | 2:30-4:00 PM   | **Parallelization and Job Management**   | 
@@ -28,7 +30,7 @@ Note about cluster computing here!!
 
 ### Instructors:
 Barry Grant (BG)  
-Ryan Mills (RM)
+Ryan Mills (RM)  
 Ken Weiss (KW)
 
 <br>
@@ -86,4 +88,22 @@ Ken Weiss (KW)
 ### Reference material
 [Git Referene Commands and Glossary](../class-material/git-reference.html)  
 [Slides]()
+
+<br>
+
+### Links / Further Reading
+
+[http://git-scm.com/book/en/v2/](http://git-scm.com/book/en/v2/)  
+[https://github.com/](https://github.com/)  
+[https://help.github.com/](https://help.github.com/)  
+[https://try.github.io/levels/1/challenges/1](https://try.github.io/levels/1/challenges/1)  
+[http://gitref.org/](http://gitref.org/)  
+[https://www.atlassian.com/git/](https://www.atlassian.com/git/)  
+[http://rogerdudler.github.io/git-guide/](http://rogerdudler.github.io/git-guide/)  
+[https://help.github.com/articles/good-resources-for-learning-git-and-github/](https://help.github.com/articles/good-resources-for-learning-git-and-github/)  
+
+[http://arc-ts.umich.edu/flux/](http://arc-ts.umich.edu/flux/)  
+[http://arc-ts.umich.edu/training-workshops/](http://arc-ts.umich.edu/training-workshops/)  
+
+  
 
