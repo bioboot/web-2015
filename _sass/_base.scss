@@ -8,6 +8,17 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+/**
+ * Add some more table style
+ */
+table, th, td {
+   /* border: 1px solid gray; */
+   border-collapse: collapse;
+   padding: 5px 15px 5px 15px;
+}
+th {
+    color: gray;
+}
 
 
 /**
@@ -99,6 +110,7 @@ a {
     &:hover {
         color: $text-color;
         text-decoration: underline;
+        /* background-color: #c0c0c0; */
     }
 }
 
