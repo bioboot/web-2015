@@ -5,7 +5,9 @@ permalink: /setup/
 ---
 
 # Software Requirements & Setup Instructions
-To fully participate in this boot camp, you will need access to the software described below on your own laptop (N.B. You will likely need _Administer privileges/permissions_ to install some of these). 
+To fully participate in this boot camp, you will need access to the software described below on **your own laptop** (N.B. You will likely need _Administer privileges/permissions_ to install some of these). 
+
+In addition, you will require access to the **University of Michigan FLUX computer cluster**. To obtain access to FLUX you will need to fill out this [online form](https://arc-ts.umich.edu/fluxform/) with your UMICH unique name, the advisor name of "Michael Boehnke" (email: boehnke@umich.edu) and list "Participanet in Introduction to Biocomputing (BIOS/BIOI/HG 606)" in the project description filed.
 
 <br>
 
