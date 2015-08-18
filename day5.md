@@ -27,6 +27,7 @@ Typically, such research projects can take a very long time to generate the data
 
 ### Instructors:
 Ryan Mills (RM) 
+...
 
 <br>
 
