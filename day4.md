@@ -9,7 +9,7 @@ Version control is the lab notebook of the digital world: it's what professional
 
 Today’s morning sessions with introduce [Git](https://git-scm.com/), currently the most popular version control system. We will learn how to perform common operations with Git that you’ll do every day. We will also cover the popular social code-hosting platforms [GitHub](https://github.com/) and [BitBucket](https://bitbucket.org/).
 
-Afternoon sessions will introduce cluster computing. Computer clusters typically aim to provide much faster processing speed, larger storage capacity, wider availability of resources and often unique computing capabilities. We will first introduce cluster computing concepts in general and how to use the [UM Flux cluster](http://arc-ts.umich.edu/flux/) in particular. Topics to be covered include a review of common parallel programming models and basic use of Flux; dependent and array scheduling; troubleshooting and analysis using checkjob, qstat, and other PBS tools.
+Afternoon sessions will introduce cluster computing. Computer clusters typically aim to provide much faster processing speed, larger storage capacity, wider availability of resources and often unique computing capabilities. We will first introduce cluster computing concepts in general and how to use the [UM Flux cluster](http://arc-ts.umich.edu/flux/) in particular. Topics to be covered include a review of common parallel programming models and basic use of Flux; dependent and array scheduling; troubleshooting and analysis using checkjob, qstat, and other PBS tools. We will then discuss various practical strategies for dividing and parallelizing workflows and utilizing checkpoints.
 
 <br>
 
@@ -23,7 +23,7 @@ Afternoon sessions will introduce cluster computing. Computer clusters typically
 |         | 12:00-1:00 PM  | Lunch                    | 
 | III     | 1:00-2:15 PM   | **Concepts in Cluster Computing**    | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
-| IV      | 2:30-4:00 PM   | **Parallelization and Job Management**   | 
+| IV      | 2:30-4:00 PM   | **Parallelization Strategies and Workflow Management**   | 
 
 
 <br>
