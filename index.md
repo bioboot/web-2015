@@ -70,22 +70,21 @@ layout: page
 |         | 12:00-1:00 PM  | Lunch                    | 
 | III     | 1:00-2:15 PM   | **Concepts in Cluster Computing**    | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
-| IV      | 2:30-4:00 PM   | **Parallelization and Job Management**   | 
+| IV      | 2:30-4:00 PM   | **Parallelization Strategies and Workflow Management**   | 
 
 <br>
 
-#### [Day 5. Unified Analytical Walk-through]({{ site.baseurl }}/day5/) 
+#### [Day 5. Unified Analytical Group Projects]({{ site.baseurl }}/day5/) 
 
-| Session | Time           | Topics                   | 
-| :-----: |:--------------:| :----------------------- | 
-| I       | 9:00-10:15 AM  | **Group Work**           | 
-|         | 10:15-10:30 AM | Coffee Break             | 
-| II      | 10:30-12:00 AM | **Group Work**           | 
-|         | 12:00-1:00 PM  | Lunch                    | 
-| III     | 1:00-2:15 PM   | **Group Work**           | 
-|         | 2:15-2:30 PM   | Coffee Break             | 
-| IV      | 2:30-4:00 PM   | **Group Presentations**  | 
-
+| Session | Time             | Topics                                                 |
+| :-----: |:----------------:| :------------------------------------------------------|
+| I       | 9:00-10:15 AM    | **Introduction to eQTLs and Overview of Project**      |
+|         | 10:15-10:30AM    | Coffee Break                                           |
+| II      | 10:30-12:00AM    | **Obtaining, Parsing and Formatting Data**             |
+|         | 12:00-1:00 PM    | Lunch                                                  |
+| III     | 1:00-2:15 PM     | **Parallel Association Testing and Visualization**    |
+|         | 2:15-2:30 PM     | Coffee Break                                           |
+| IV      | 2:30-4:00 PM     | **Group Presentations and Discussion**                 |
 
 <br>
 
