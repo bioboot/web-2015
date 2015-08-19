@@ -31,11 +31,12 @@ also learn the basics of data visualization with practice on real data.
 | :-----: |:--------------:| :----------------------- | 
 | I       | 9:00-10:15 AM  | **Mini-Practice : FASTQ File Manipulation** | 
 |         | 10:15-10:30AM  | Coffee Break             | 
-| II      | 10:30-12:00 AM | **Lecture : Data Formats and Conversions**       | 
+| II      | 10:30-11:15 AM | **Lecture : Data Formats and Conversions**       | 
+| III     | 11:15-12:00 AM | **Mini-Practice: Select a subset of variant/genotype calls**       | 
 |         | 12:00-1:00PM   | Lunch                    | 
-| III     | 1:00-2:15 PM   | **Practice : Analysis with Genomic Data Formats** | 
+| IV      | 1:00-2:15 PM   | **Practice : Analysis with Genomic Data Formats** | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
-| IV      | 2:30-4:00 PM   | **Data Visualization : Overview and Practice**   | 
+| V       | 2:30-4:00 PM   | **Visualization: Overview and Practice**   | 
 
 
 <br>
@@ -73,7 +74,7 @@ Jacob Kitzman (JK)
 #### II) Lecture : Overview of Genomic Data Formats and Conversions [0:45 hr]  JK
 - [Slides - Data Formats and Conversions](../class-material/2015_08_day3_sec02.pdf)
  
-### III) Mini-Practice  [0:45 hr] JK
+#### III) Mini-Practice: Select a subset of variant/genotype calls [0:45 hr] JK
  - download a VCF file
  - write a simple python script to loop through the VCF file and select specific rows
  - index it the VCF file and use tabix to select the same rows  
