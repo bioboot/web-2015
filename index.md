@@ -36,13 +36,13 @@ layout: page
 
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
-| I       | 9:00-10:15 AM  | **Programming Concepts** | 
+| I       | 9:00-10:15 AM  | **Intro to Python and Programming Concepts** | 
 |         | 10:15-10:30 AM | Coffee Break             | 
-| II      | 10:30-12:00 AM | **Fundamentals of Data Structures**       | 
+| II      | 10:30-12:00 AM | **Programming Concepts, Variables, and Data Structures**       | 
 |         | 12:00-1:00 PM  | Lunch                    | 
 | III     | 1:00-2:15 PM   | **Control Structures and Functions**    | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
-| IV      | 2:30-4:00 PM   | **Automating Data Processing and Visualization**   | 
+| IV      | 2:30-4:00 PM   | **System Calls, Plotting, and iPython Notebooks**   | 
 
 <br>
 
