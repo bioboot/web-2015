@@ -36,10 +36,10 @@ Hui Jiang (HJ)
 
 ### Topics:
 
-#### I)   Setup and Motivation [1:15 hr]  HJ & BG
+#### I)   Setup and Motivation [1:15 hr]  HJ & BG ([Slides](../class-material/slides_day1-1_unix-motivation.pdf))
 - Setup
-- Motivation
- - Modularity, workflows, programmability, existing tools, and the Unix philosophy
+- Motivation (Why do we use Unix?)
+	- Modularity, workflows, programmability, existing tools, and the Unix philosophy
 - Learning Objectives
 
 
@@ -48,14 +48,15 @@ Hui Jiang (HJ)
 #### II)   Beginning Unix [1:30 hr]  HJ
 - Beginning Unix (shell vs terminal, common commands)
 - Understanding processes (Listing, suspending, killing and background processes)
-- File structure,
+- File system structure
 - File permissions
 - Connecting to remote servers
 - File transfer
 
+
 —- Lunch Break [1 hr] —  
 
-### III)   Working with Unix [1.15 hr] BG
+#### III)   Working with Unix [1.15 hr] BG ([Slides](../class-material/slides_day1-3_unix-work.pdf))
 - File editing
 - Redirecting
 - Streams & Pipes 
@@ -64,9 +65,10 @@ Hui Jiang (HJ)
 
 —- Coffee Break [15 mins] —  
 
-### IV)   How to Get Working [1.30 hr] BG & HJ
+#### IV)   How to Get Working [1.30 hr] BG & HJ
 - Project organization   
 - Compiling software
+
 
 —- End/Wrap-Up —
 
@@ -74,4 +76,9 @@ Hui Jiang (HJ)
 
 ### Reference material
 [Unix Referene Commands and Glossary](../class-material/unix-reference.html)  
-[Slides](../class-material/day1_bootcamp.pdf)
+[Slides-1.1](../class-material/slides_day1-1_unix-motivation.pdf)  
+[Slides-1.2](../class-material/slides_day1-2_unix-basics.pdf)  
+[Slides-1.3](../class-material/slides_day1-3_unix-work.pdf)  
+[Slides-1.4](../class-material/slides_day1-4_unix-compiling.pdf)  
+
+
