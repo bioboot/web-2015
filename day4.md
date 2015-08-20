@@ -33,6 +33,9 @@ Barry Grant (BG)
 Ryan Mills (RM)  
 Ken Weiss (KW)
 
+### Assistants:
+Chris Scheller (CS)
+
 <br>
 
 ### Topics:

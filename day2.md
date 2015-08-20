@@ -36,6 +36,9 @@ Much of bioinformatics requires manipulation of data data sets, execution of mul
 Jeff de Wet (JdW)  
 Jeff Kidd (JK)
 
+### Assistants:
+Ryan Welch (RW)
+
 <br>
 
 #### I)   Intro to Python and Programming Concepts [1:15 hr]  JK & JdW

@@ -32,6 +32,9 @@ The real strength of learning Unix is that most of these commands can be combine
 Barry Grant (BG)  
 Hui Jiang (HJ)
 
+### Assistants:
+Sean Caron (SC)
+
 <br>
 
 ### Topics:
