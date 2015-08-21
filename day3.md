@@ -50,7 +50,9 @@ Jacob Kitzman (JK)
 ### Topics:
 
 #### I) Mini-Practice : FASTQ File Manipulation [1:15 hr]  HMK
+<!--- files dont exist yet...
 - [Introductory Slides - Getting Started with FASTQ Files](../class-material/2015_08_day3_sec01_v1.pdf)
+-->
 - Set your input file directory
 
   ```
@@ -72,8 +74,10 @@ Jacob Kitzman (JK)
 - If we allow one mismatch in the barcode sequence, how does it change?
 
 #### II) Lecture : Overview of Genomic Data Formats and Conversions [0:45 hr]  JK
+<!--- files dont exist yet...
 - [Slides - Data Formats and Conversions](../class-material/2015_08_day3_sec02.pdf)
- 
+-->
+
 #### III) Mini-Practice: Select a subset of variant/genotype calls [0:45 hr] JK
  - download a VCF file
  - write a simple python script to loop through the VCF file and select specific rows
@@ -89,7 +93,9 @@ Jacob Kitzman (JK)
 - Working with genome browsers: IGV and UCSC 
 
 #### IV) Visualization: Overview and Practice [1:30 hr] JK
+<!--- files dont exist yet...
 - [Slides - Data Visualization](../class-material/2015_08_day3_sec04.pdf)
+-->
 - Data visualization for exploratory analysis
 - Commonly used types of graphs
 - Basic graphing in ipython with matplotlib
@@ -101,4 +107,7 @@ Jacob Kitzman (JK)
 
 ### Reference material
 [Referene Commands and Glossary](../class-material/vis-reference.html)  
-[Slides]()
+<!--- files dont exist yet...
+[Slides-3.1]()
+[Slides-3.2]()
+-->

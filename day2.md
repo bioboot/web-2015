@@ -76,5 +76,7 @@ Ryan Welch (RW)
 [Matplotlib Gallery](http://matplotlib.org/gallery.html)
 [iPython Notebooks](http://ipython.org/notebook.html)
 
-[Slides]()
-
+<!--- files dont exist yet...
+[Slides-2.1]()
+[Slides-2.2]()
+-->

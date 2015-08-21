@@ -89,24 +89,25 @@ Chris Scheller (CS)
 <br>
 
 ### Reference material
-[Git Referene Commands and Glossary](../class-material/git-reference.html)  
-[Slides]()
+[Git Reference Commands and Glossary](../class-material/git-reference.html)  
+<!--- files dont exist yet...
+[Slides-4.1]()
+[Slides-4.2]()
+-->
+
 
 <br>
 
 ### Links / Further Reading
 
-[http://git-scm.com/book/en/v2/](http://git-scm.com/book/en/v2/)  
-[https://github.com/](https://github.com/)  
-[https://help.github.com/](https://help.github.com/)  
-[https://try.github.io/levels/1/challenges/1](https://try.github.io/levels/1/challenges/1)  
-[http://gitref.org/](http://gitref.org/)  
-[https://www.atlassian.com/git/](https://www.atlassian.com/git/)  
-[http://rogerdudler.github.io/git-guide/](http://rogerdudler.github.io/git-guide/)  
-[https://help.github.com/articles/good-resources-for-learning-git-and-github/](https://help.github.com/articles/good-resources-for-learning-git-and-github/)  
+[Comprehensive 'Git Pro' book](http://git-scm.com/book/en/v2/)  
+[GitHub home page](https://github.com/)  
+[GitHub help pages](https://help.github.com/)  
+[Bitbucket git tutorals](https://www.atlassian.com/git/)   
+[List of resources for learning git and github](https://help.github.com/articles/good-resources-for-learning-git-and-github/)  
 
-[http://arc-ts.umich.edu/flux/](http://arc-ts.umich.edu/flux/)  
-[http://arc-ts.umich.edu/training-workshops/](http://arc-ts.umich.edu/training-workshops/)  
+[Flux cluster homepage](http://arc-ts.umich.edu/flux/)  
+[Flux training workshops](http://arc-ts.umich.edu/training-workshops/)  
 
   
 

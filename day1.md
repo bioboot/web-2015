@@ -78,10 +78,11 @@ Sean Caron (SC)
 <br>
 
 ### Reference material
-[Unix Referene Commands and Glossary](../class-material/unix-reference.html)  
+[Unix Referene Commands and Glossary](../class-material/unix-reference.html) 
+<!--- files dont exist yet... 
 [Slides-1.1](../class-material/slides_day1-1_unix-motivation.pdf)  
 [Slides-1.2](../class-material/slides_day1-2_unix-basics.pdf)  
 [Slides-1.3](../class-material/slides_day1-3_unix-work.pdf)  
 [Slides-1.4](../class-material/slides_day1-4_unix-compiling.pdf)  
-
+-->
 
