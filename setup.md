@@ -8,7 +8,7 @@ permalink: /setup/
 To fully participate in this boot camp, you will need access to the software described below on **your own laptop** (N.B. You will likely need _Administer privileges/permissions_ to install some of these). 
 
 **Access to the FLUX computer cluster:**
-In addition to the software listed further below, you will require access to the University of Michigan FLUX computer cluster. To obtain access to FLUX you will need to first fill out this [online form](https://arc-ts.umich.edu/fluxform/) with your UMICH unique name, the advisor name of "Michael Boehnke" (email: boehnke@umich.edu) and list "Participanet in Introduction to Biocomputing course (BIOS/BIOI/HG 606)" in the project description field.
+In addition to the software listed further below, you will require access to the University of Michigan FLUX computer cluster. To obtain access to FLUX you will need to first fill out this [online form](https://arc-ts.umich.edu/fluxform/) with your UMICH unique name, the advisor name of "Michael Boehnke" (email: boehnke@umich.edu) and list "Participant in Introduction to Biocomputing course (BIOS/BIOI/HG 606)" in the project description field.
 
 To login to FLUX you will also require an **MToken**. An MToken is a software application that displays a new eight-digit tokencode once every minute. When you log in to FLUX you must enter the tokencode along with your uniqname and regular UMICH password. To obtain your MToken please follow [these instructions](http://www.itcs.umich.edu/itcsdocs/s4394/#softwaremtoken). We will cover FLUX login and usage on [Day 4]({{ site.baseurl }}/day4/) of this course.
 
