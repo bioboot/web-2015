@@ -16,8 +16,8 @@ Typically, such research projects can take a very long time to generate the data
 | Session | Time             | Topics                                                 |  
 | :-----: |:----------------:| :------------------------------------------------------|  
 | I       | 9:00-10:15 AM    | **Introduction to eQTLs and Overview of Project**      |  
-|         | 10:15-10:30AM    | Coffee Break                                           |   
-| II      | 10:30-12:00AM    | **Obtaining, Parsing and Formatting Data**             |   
+|         | 10:15-10:30 AM   | Coffee Break                                           |   
+| II      | 10:30-12:00 AM   | **Obtaining, Parsing and Formatting Data**             |   
 |         | 12:00-1:00 PM    | Lunch                                                  |  
 | III     | 1:00-2:15 PM     | **Parallel Association Testing and Visualization**    |  
 |         | 2:15-2:30 PM     | Coffee Break                                           |  

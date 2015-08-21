@@ -12,14 +12,17 @@ dl, dd, ol, ul, figure {
  * Add some more table style
  */
 table, th, td {
-   /* border: 1px solid gray; */
+   /* white-space: nowrap; */
    border-collapse: collapse;
    padding: 5px 15px 5px 15px;
 }
 th {
     color: gray;
 }
-
+td:nth-child(2) { 
+    /* Prevent text wrap in col 2 of tables for Ryan */
+    white-space: nowrap;
+}
 
 /**
  * Basic styling

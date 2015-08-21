@@ -38,7 +38,7 @@ layout: page
 | :-----: |:--------------:| :----------------------- | 
 | I       | 9:00-10:15 AM  | **Intro to Python and Programming Concepts** | 
 |         | 10:15-10:30 AM | Coffee Break             | 
-| II      | 10:30-12:00 AM | **Programming Concepts, Variables, and Data Structures**       | 
+| II      | 10:30-12:00 AM | **Variables, and Data Structures**       | 
 |         | 12:00-1:00 PM  | Lunch                    | 
 | III     | 1:00-2:15 PM   | **Control Structures and Functions**    | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
@@ -65,8 +65,8 @@ layout: page
 | Session | Time           | Topics                   | 
 | :-----: |:--------------:| :----------------------- | 
 | I       | 9:00-10:15 AM  | **Version Control with Git** | 
-|         | 10:15-10:30AM | Coffee Break             | 
-| II      | 10:30-12:00AM | **Collaborating with GitHub & BitBucket**       | 
+|         | 10:15-10:30 AM | Coffee Break             | 
+| II      | 10:30-12:00 AM | **Collaborating with GitHub & BitBucket**       | 
 |         | 12:00-1:00 PM  | Lunch                    | 
 | III     | 1:00-2:15 PM   | **Concepts in Cluster Computing**    | 
 |         | 2:15-2:30 PM   | Coffee Break             | 
@@ -79,8 +79,8 @@ layout: page
 | Session | Time             | Topics                                                 |
 | :-----: |:----------------:| :------------------------------------------------------|
 | I       | 9:00-10:15 AM    | **Introduction to eQTLs and Overview of Project**      |
-|         | 10:15-10:30AM    | Coffee Break                                           |
-| II      | 10:30-12:00AM    | **Obtaining, Parsing and Formatting Data**             |
+|         | 10:15-10:30 AM   | Coffee Break                                           |
+| II      | 10:30-12:00 AM   | **Obtaining, Parsing and Formatting Data**             |
 |         | 12:00-1:00 PM    | Lunch                                                  |
 | III     | 1:00-2:15 PM     | **Parallel Association Testing and Visualization**    |
 |         | 2:15-2:30 PM     | Coffee Break                                           |
