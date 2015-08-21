@@ -48,19 +48,19 @@ Ryan Welch (RW)
 
 —- Coffee Break [15 mins] —  
 
-#### II)   Programming Concepts, Variables, and Data Structures [1:30 hr]  JdW
+#### II)   Programming Concepts, Variables, and Data Structures [1:30 hr]  JdW ([Handout](../class-material/handout_day2-2_python.pdf))
 - Concepts in the Python language
 - Variables and data structures
 
 —- Lunch Break [1 hr] —  
 
-### III)   Control Structures and Functions [1.15 hr] JdW
+#### III)   Control Structures and Functions [1.15 hr] JdW
 - Control structures and loops
 - Functions
 
 —- Coffee Break [15 mins] —  
 
-### IV)   System Calls, Plotting, and iPython Notebooks [1.30 hr] BG & HJ
+#### IV)   System Calls, Plotting, and iPython Notebooks [1.30 hr] BG & HJ
 - Calling external programs 
 - Plotting using matplotlib and other utilities
 - Demonstration of iPython notebooks
@@ -71,6 +71,8 @@ Ryan Welch (RW)
 <br>
 
 ### Reference material
+[Class Handout](../class-material/handout_day2-2_python.pdf)
+
 [Python Referene Commands and Glossary](../class-material/python-reference.html)  
 [Python Referene from Software Carpentry](http://software-carpentry.org/v5/novice/ref/03-python.html)  
 [Matplotlib Gallery](http://matplotlib.org/gallery.html)
@@ -80,3 +82,4 @@ Ryan Welch (RW)
 [Slides-2.1]()
 [Slides-2.2]()
 -->
+
