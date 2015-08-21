@@ -33,7 +33,7 @@ Git is a version control system that lets you track who made changes to what and
 
 	mobapt 
 
-Pressing Return will bring up a panel listing available additions. Please select **git** and **nano** (see below), and do the install. 
+Pressing Return will bring up a panel listing available additions. Please select **git** and **nano** (see below) by clicking on their entries and then the "Install/Update" button. 
 
 **Mac OS X:** For OS X 10.9 and higher, install Git for Mac by downloading and running the most recent "mavericks" installer from this [list](http://sourceforge.net/projects/git-osx-installer/files/). After installing Git, there will not be anything in your /Applications folder, as Git is a command line program. For older versions of OS X (10.5-10.8) use the most recent available installer labeled "snow-leopard" [available here](http://sourceforge.net/projects/git-osx-installer/files/).
 
@@ -70,7 +70,7 @@ We will teach Python using the IPython notebook, a programming environment that 
 Download the default Python 2 installer (do not follow the link to version 3). Use all of the defaults for installation except make sure to check _Make Anaconda the default Python_.
 
 **Mac OS X:** Download and install [Anaconda](https://store.continuum.io/cshop/anaconda/).
-Download the default Python 2 installer (do not follow the link to version 3). Use all of the defaults for installation.
+Download the default "Mac OS X Python 2.7 Graphical Installer" (do not follow the link to version 3). Use all of the defaults for installation.
 
 **Linux:** We recommend the all-in-one scientific Python installer [Anaconda](http://continuum.io/downloads.html).
 
