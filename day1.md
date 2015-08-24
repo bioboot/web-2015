@@ -87,7 +87,8 @@ Sean Caron (SC)
 [Slides-1.4](../class-material/slides_day1-4_unix-compiling.pdf)  
 -->
 
-    
+
+[A Quick Guide to Organizing Computational Biology Projects (Noble 2009)](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424)  
 [Unix Referene Commands and Glossary](../class-material/unix-reference.html)  
 [Introduction to Bash Shell Scripting](https://en.wikibooks.org/wiki/Bash_Shell_Scripting)  
 
