@@ -39,7 +39,7 @@ Sean Caron (SC)
 
 ### Topics:
 
-#### I)   Setup and Motivation [1:15 hr]  HJ & BG ([Slides](../class-material/slides_day1-1_unix-motivation.pdf))
+#### I)   Setup and Motivation [1:15 hr]  HJ & BG ([Slides](../class-material/slides_day1-1_unix-motivation.pdf))  ([Example data](../class-material/bootcamp_01_unix.tar.gz))  
 - Setup
 - Motivation (Why do we use Unix?)
 	- Modularity, workflows, programmability, existing tools, and the Unix philosophy
@@ -78,8 +78,6 @@ Sean Caron (SC)
 <br>
 
 ### Reference material
-[Unix Referene Commands and Glossary](../class-material/unix-reference.html) 
-  
 [Example data: bootcamp_01_unix.tar.gz](../class-material/bootcamp_01_unix.tar.gz) [13M]  
 [Slides-1.1](../class-material/slides_day1-1_unix-motivation.pdf)  
 [Slides-1.2](../class-material/slides_day1-2_unix-intro.pdf)  
@@ -88,4 +86,10 @@ Sean Caron (SC)
 <!--- files dont exist yet... 
 [Slides-1.4](../class-material/slides_day1-4_unix-compiling.pdf)  
 -->
+
+    
+[Unix Referene Commands and Glossary](../class-material/unix-reference.html)  
+[Introduction to Bash Shell Scripting](https://en.wikibooks.org/wiki/Bash_Shell_Scripting)  
+
+  
 
