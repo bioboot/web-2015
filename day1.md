@@ -48,7 +48,7 @@ Sean Caron (SC)
 
 —- Coffee Break [15 mins] —  
 
-#### II)   Beginning Unix [1:30 hr]  HJ
+#### II)   Beginning Unix [1:30 hr]  HJ ([Slides](../class-material/slides_day1-2_unix-intro.pdf))
 - Beginning Unix (shell vs terminal, common commands)
 - Understanding processes (Listing, suspending, killing and background processes)
 - File system structure
@@ -79,10 +79,13 @@ Sean Caron (SC)
 
 ### Reference material
 [Unix Referene Commands and Glossary](../class-material/unix-reference.html) 
-<!--- files dont exist yet... 
+  
+[Example data: bootcamp_01_unix.tar.gz](../class-material/bootcamp_01_unix.tar.gz) [13M]  
 [Slides-1.1](../class-material/slides_day1-1_unix-motivation.pdf)  
-[Slides-1.2](../class-material/slides_day1-2_unix-basics.pdf)  
+[Slides-1.2](../class-material/slides_day1-2_unix-intro.pdf)  
 [Slides-1.3](../class-material/slides_day1-3_unix-work.pdf)  
+
+<!--- files dont exist yet... 
 [Slides-1.4](../class-material/slides_day1-4_unix-compiling.pdf)  
 -->
 
