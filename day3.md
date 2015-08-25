@@ -79,4 +79,3 @@ Jacob Kitzman (JK)
 
 ### Reference material
 [Referene Commands and Glossary](../class-material/unix-reference.html)  
-[Slides]()
