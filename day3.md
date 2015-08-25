@@ -50,34 +50,11 @@ Jacob Kitzman (JK)
 ### Topics:
 
 #### I) Mini-Practice : FASTQ File Manipulation [1:15 hr]  HMK
-<!--- files dont exist yet...
 - [Introductory Slides - Getting Started with FASTQ Files](../class-material/2015_08_day3_sec01_v1.pdf)
--->
-- Set your input file directory
-
-  ```
-  export DATA=/home/hmkang/bioboot/data/
-  ```
-- Examine the contents of the FASTQ files
-
-  ```
-  zless $DATA/bioboot_2015a_R2.fastq.gz
-  ```
-- Show only the sequence read information from FASTQ
-
-  ```
-  zcat $DATA/bioboot_2015a_R2.fastq.gz | awk 'NR % 4 == 2 {print;}' | less
-  ```
-- What are the barcodes that appears most frequently?
-- Write a python code that split the input read 1 FASTQ, based on the expected barcodes at read 2
- - How many reads do not belong to any of the samples?
-- If we allow one mismatch in the barcode sequence, how does it change?
+- [Exploring FASTQ files in UNIX](../class-material/day3-fastq-unix-practice.html)
 
 #### II) Lecture : Overview of Genomic Data Formats and Conversions [0:45 hr]  JK
-<!--- files dont exist yet...
-- [Slides - Data Formats and Conversions](../class-material/2015_08_day3_sec02.pdf)
--->
-
+ 
 #### III) Mini-Practice: Select a subset of variant/genotype calls [0:45 hr] JK
  - download a VCF file
  - write a simple python script to loop through the VCF file and select specific rows
@@ -85,17 +62,12 @@ Jacob Kitzman (JK)
  - overlap a VCF and a bed file using bedtools
 
 #### IV) Practice : Analysis with Genomic Data Formats [1:15 hr]  HMK
-- Understanding and accessing FASTA files
-- SAM/BAM - Aligned sequence reads
-- VCF - Variant Call Formats
-- Formats for representing genes
-- BED - Formats for genomic intervals
-- Working with genome browsers: IGV and UCSC 
+- [Understanding how to accessing FASTA files](../class-material/day3-fasta-practice.html)
+- [Accessing aligned sequence reads in SAM/BAM format](../class-material/day3-bam-practice.html)
+- [Representing genes and transcripts using GTF and genePred format](../class-material/day3-gtf-practice.html)
+- [Working with BED files](../class-material/day3-bed-practice.html)
 
-#### IV) Visualization: Overview and Practice [1:30 hr] JK
-<!--- files dont exist yet...
-- [Slides - Data Visualization](../class-material/2015_08_day3_sec04.pdf)
--->
+#### V) Visualization: Overview and Practice [1:30 hr] JK
 - Data visualization for exploratory analysis
 - Commonly used types of graphs
 - Basic graphing in ipython with matplotlib
@@ -106,8 +78,4 @@ Jacob Kitzman (JK)
 <br>
 
 ### Reference material
-[Referene Commands and Glossary](../class-material/vis-reference.html)  
-<!--- files dont exist yet...
-[Slides-3.1]()
-[Slides-3.2]()
--->
+[Referene Commands and Glossary](../class-material/unix-reference.html)  
