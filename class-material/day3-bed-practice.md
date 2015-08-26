@@ -42,6 +42,16 @@ In this part, we will learn how to use BED format files to facilitate region-bas
        chr20 	 10015646 	 10037410 	 ANKEF1
        chr20 	 10015646 	 10037410 	 ANKEF1
        chr20 	 10015646 	 10037410 	 ANKEF1 </pre>
+     - (SPOILER ALERT!) Here is an example skeleton code
+       <pre>  
+       import sys
+       
+       script, chrom, beg, end = sys.argv  # get arguments from command line
+       f = open('refFlat.bed','r')         # read from the input file
+       for line in f:			   # iterate over the file by line
+         tok = line.split()		   # tokenize the line by whitespaces (list of size 4)
+	 ## HERE YOU NEED TO PRINT THE LINE ONLY WHEN IT OVERLAPS
+       f.close() </pre>
      - To check example solutions, [CLICK HERE](../class-material/day3-answers.html#write-a-python-program-that-print-out-lines-that-overlaps-with-a-region)
      - Do you think this is an efficient solution to get the answer?
 
