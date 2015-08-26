@@ -16,28 +16,56 @@ In this part, we will learn how to view FASTQ files from UNIX file system.
    (...Enter login credentials...)
    $ mkdir --p bioboot/day3
    $ cd bioboot/day3 </pre>
-
+   
 2. Create a symbolic link to the directory containing the input files, and add `PATH`
 
    <pre> $ ln -s /home/hmkang/bioboot/data/ data </pre>
   - `ln -s [target] [link_name]` creates a *shortcut* of the target file.
   - See `man ln` to see the detailed usage of `ln` 
 
-   <pre> $ export PATH=${PATH}:/home/hmkang/bioboot/bin </pre>
-  - Type `samtools` to see that the `$PATH` variable was properly updated.
+   <pre> $ export PATH=/home/hmkang/bioboot/bin:${PATH} </pre>
+  - Verify that the `data` and `bin` directories are correctly configured.
+    <pre>
+    $ ls data/
+    ls data/
+    ALL.chr20.phase3_shapeit2_mvncall_integrated_v5.20130502.genotypes.annotation.vcf.gz      gencode.v19.annotation.gtf.gz                            hs37d5.fa.fai
+    ALL.chr20.phase3_shapeit2_mvncall_integrated_v5.20130502.genotypes.annotation.vcf.gz.tbi  HG00096.chrom20.ILLUMINA.bwa.GBR.exome.20120522.bam      ucsc.hg19.fasta
+    bioboot_2015a_R1.fastq.gz                                                                 HG00096.chrom20.ILLUMINA.bwa.GBR.exome.20120522.bam.bai  ucsc.hg19.fasta.fai
+    bioboot_2015a_R2.fastq.gz                                                                 hs37d5.fa
+    
+    $ which samtools
+    /home/hmkang/bioboot/bin/samtools </pre>
+    > (Note) You can scroll the box above to the right
   
 3. Examine the contents of the FASTQ files
 
    <pre> $ zless data/bioboot_2015a_R2.fastq.gz </pre>
+   - What do you see? Can you interpret what each line means?
    
-4. Show only the sequence read information from FASTQ
+   - Let's check whether the two FASTQ files are paired.
+     <pre>
+     $ zcat data/bioboot_2015a_R1.fastq.gz | wc -l
+     $ zcat data/bioboot_2015a_R2.fastq.gz | wc -l </pre>
+   - Do you think the files are paired? Why?
+   - Let's check another way.
+   - Let's check whether the two FASTQ files are paired.
+     <pre>
+     $ zcat data/bioboot_2015a_R1.fastq.gz | head
+     $ zcat data/bioboot_2015a_R2.fastq.gz | head </pre>
+   - What additional information does it tell us?
+   
+4. Display only the sequence read information from FASTQ
+   - What should we display? Which line numbers?
+   
    <pre> $ zcat data/bioboot_2015a_R2.fastq.gz | awk 'NR % 4 == 2 {print;}' | less </pre>
  
 
    - `awk` is a script language useful for quick data manipulation.
    - The script above takes each line as input, and print the 2nd line of every four lines (line number NR is 4N+2).
-   - We won't introduce any more specific details for `awk` today. For more information about `awk`, [This link](http://www.linuxfocus.org/English/September1999/article103.html) could be a good starting point.
-   - `sed` and `perl` one-liners are also useful tools for manipulating data easily, without having to write a separate program.
+   - We won't introduce `awk` today, but will use it in some occasions explaining specific details.
+     - For more information about `awk`, [This link](http://www.linuxfocus.org/English/September1999/article103.html) could be a good starting point.
+   - `sed` and `perl` one-liners are also useful tools for manipulating data easily
+     - ...without having to write a separate program!
 
 5. **(DIY)** What are the barcodes that appear most frequently?
    - **Given** : Your input file is `data/bioboot_2015a_R2.fastq.gz`
@@ -80,7 +108,11 @@ In this part, we will learn how to view FASTQ files from UNIX file system.
      - Because any pair of barcodes are different by 4 or more nucleotides, if there was one base call error in the barcode, it can be unambiguously resolved.
      - By modifying `outfs` from the exact match code, we can allow up to one mismatch (how?)
      - Need a solution? [CLICK HERE FOR A SOLUTION](../class-material/day3-answers.html#c-answer-for-fastq-demultiplexing---allowing-one-mismatch)
-   - Advanced version : Use the base quality scores to probablistically calculate the best-matching barcode.
+   - Bored? Try an advanced version : Use the base quality scores to probablistically calculate the best-matching barcode.
      - You can use `ord` function to convert characters to ASCII code integer.
      - Calculate the likelihood of barcode reads for each case to determine the best matching one.
      - What would be advantages and disadvantages for this approach?
+ 
+Congratulations! Well done in exploring FASTQ files in UNIX!
+<br>
+Now let's go back to [Day 3 Overview](../day3).

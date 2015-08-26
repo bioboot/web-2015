@@ -53,6 +53,8 @@ Jacob Kitzman (JK)
 - [Introductory Slides - Getting Started with FASTQ Files](../class-material/2015_08_day3_sec01_v1.pdf)
 - [Exploring FASTQ files in UNIX](../class-material/day3-fastq-unix-practice.html)
 
+—- Coffee Break [15 mins] —  
+
 #### II) Lecture : Overview of Genomic Data Formats and Conversions [0:45 hr]  JK
  - [Slides - Genomic Data Formats](../class-material/day3_section2.pdf)
 
@@ -62,11 +64,15 @@ Jacob Kitzman (JK)
  - index it the VCF file and use tabix to select the same rows  
  - overlap a VCF and a bed file using bedtools
 
+—- Lunch Break [1 hr] —  
+
 #### IV) Practice : Analysis with Genomic Data Formats [1:15 hr]  HMK
-- [Understanding how to accessing FASTA files](../class-material/day3-fasta-practice.html)
+- [Understanding how to access FASTA files](../class-material/day3-fasta-practice.html)
 - [Accessing aligned sequence reads in SAM/BAM format](../class-material/day3-bam-practice.html)
 - [Representing genes and transcripts using GTF and genePred format](../class-material/day3-gtf-practice.html)
 - [Working with BED files](../class-material/day3-bed-practice.html)
+
+—- Coffee Break [15 mins] —  
 
 #### V) Visualization: Overview and Practice [1:30 hr] JK
 - Data visualization for exploratory analysis
@@ -75,6 +81,7 @@ Jacob Kitzman (JK)
 - Introduction to ggplot graphing
 - Analysis and visualization of genotypes and gene expression
 
+—- End/Wrap-Up —
 
 <br>
 

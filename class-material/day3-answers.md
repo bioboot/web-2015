@@ -220,6 +220,7 @@ layout: page
     <pre>
     $ cat refFlat.txt.gz | cut -f 1,3 | sort | uniq | wc -l
     27843 </pre>
+  - This means that up to 1,446 genes are duplicated across multiple chromosomes.
 
 #### 4a. How many genes, transcripts, exons, and CDS exists in GENCODE v19 GTF?
   - You can check the third column in the GTF
