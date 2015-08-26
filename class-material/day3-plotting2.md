@@ -23,4 +23,3 @@ Other useful plotting libraries (not covered here):
 
   - [ggplot2 ported to python](http://ggplot.yhathq.com/)
 
-In your ipython notebook, 
