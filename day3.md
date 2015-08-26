@@ -59,10 +59,8 @@ Jacob Kitzman (JK)
  - [Slides - Genomic Data Formats](../class-material/day3_section2.pdf)
 
 #### III) Mini-Practice: Select a subset of variant/genotype calls [0:45 hr] JK
- - download a VCF file
- - write a simple python script to loop through the VCF file and select specific rows
- - index it the VCF file and use tabix to select the same rows  
- - overlap a VCF and a bed file using bedtools
+ - [Downloading a VCF file](../class-material/day3-vcf-1.html)
+ - [Selecting and manipulating variants and genotpye data](../class-material/day3-vcf-2.html)
 
 —- Lunch Break [1 hr] —  
 
