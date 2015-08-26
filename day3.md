@@ -56,7 +56,8 @@ Jacob Kitzman (JK)
 —- Coffee Break [15 mins] —  
 
 #### II) Lecture : Overview of Genomic Data Formats and Conversions [0:45 hr]  JK
- 
+ - [Slides - Genomic Data Formats](../class-material/day3_section2.pdf)
+
 #### III) Mini-Practice: Select a subset of variant/genotype calls [0:45 hr] JK
  - download a VCF file
  - write a simple python script to loop through the VCF file and select specific rows
