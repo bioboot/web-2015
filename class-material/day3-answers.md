@@ -29,8 +29,8 @@ layout: page
     <pre>
     import gzip
 
-    bc2id = { ... }  # dictory to map barcodes to sample IDs
-    outfs = {}       # dictory to map barcodes to output file handles
+    bc2id = { ... }  # dictionary to map barcodes to sample IDs
+    outfs = {}       # dictionary to map barcodes to output file handles
     for bc in bc2id:
     	outfs[bc] = gzip.open( ... )  # open output file for each barcode
     unknown = gzip.open( ... )        # open output file for unknown file
@@ -53,27 +53,26 @@ layout: page
 
     bc2id = {'ACAGTGA' : 'Sample1', 'CAGATCA' : 'Sample2' , 'GCCAATA' : 'Sample3', 'TGACCAA' : 'Sample4' ,'TTAGGCA' : 'Sample5'}
     outfs = {}
-    for bc in bc2id:
-      f = gzip.open('out/bioboot_2015a_'+bc2id[bc]+'.fastq.gz','w')
-      outfs[bc] = f
+    for bc in bc2id:   ## for each barcode, create a filehandle and store to a dictionary
+      outfs[bc] = gzip.open('out/bioboot_2015a_'+bc2id[bc]+'.fastq.gz','w')
     outunknown = gzip.open('out/bioboot_2015a_UNKNOWN.fastq.gz','w')
 
-    f1 = gzip.open('data/bioboot_2015a_R1.fastq.gz','r')
-    f2 = gzip.open('data/bioboot_2015a_R2.fastq.gz','r')
+    f1 = gzip.open('data/bioboot_2015a_R1.fastq.gz','r')  ## read the first FASTQ
+    f2 = gzip.open('data/bioboot_2015a_R2.fastq.gz','r')  ## read the second FASTQ
 
-    for rname2 in f2:
-      seq2 = f2.readline().rstrip()
-      dummy2 = f2.readline()
-      qual2 = f2.readline()
-      outf = outunknown
-      if ( seq2 in outfs ):
-        outf = outfs[seq2]
-      outf.write(f1.readline())
-      outf.write(f1.readline())
+    for rname2 in f2:    ## iterate over second FASTQ file (read name first)
+      seq2 = f2.readline().rstrip()  ## next line is barcode sequence (remove end-of-line EOL marker)
+      dummy2 = f2.readline()         ## next line is '+'
+      qual2 = f2.readline()          ## next line is quality
+      outf = outunknown              ## initially consider as output
+      if ( seq2 in outfs ):          ## if the barcode is in the dictionary
+        outf = outfs[seq2]           ## change the output file handle adequately
+      outf.write(f1.readline())      ## read four lines from the first FASTQ 
+      outf.write(f1.readline())      ##   and write to the designated file handle
       outf.write(f1.readline())
       outf.write(f1.readline())
 
-    outunknown.close()
+    outunknown.close()               ## need to close the file handles
     for bc in outfs:
       outfs[bc].close() </pre>
 
@@ -92,21 +91,21 @@ layout: page
 
     bc2id = {'ACAGTGA' : 'Sample1', 'CAGATCA' : 'Sample2' , 'GCCAATA' : 'Sample3', 'TGACCAA' : 'Sample4' ,'TTAGGCA' : 'Sample5'}
     outfs = {}
-    nucleotides = ('N','A','C','G','T')
+    nucleotides = ('N','A','C','G','T') 
     for bc in bc2id:
       f = gzip.open('out/bioboot_2015a_'+bc2id[bc]+'.fastq.gz','w')
       outfs[bc] = f
-      bclist = list(bc)  # convert string to list
+      bclist = list(bc)            # convert string to list
       for i in range(len(bclist)): # choose position to substitute
-        for n in nucleotides:    # choose a nucleotide substitute to
+        for n in nucleotides:      # choose a nucleotide substitute to
           bclist[i] = n
           newbc = "".join(bclist)
           if ( newbc != bc ):
-            outfs[newbc] = f
-      bclist[i] = bc[i] # convert the character back to the original one
+            outfs[newbc] = f   # add dictionary with additional barcode with one mismatch
+      bclist[i] = bc[i]        # convert the character back to the original one
     outunknown = gzip.open('out/bioboot_2015a_UNKNOWN.fastq.gz','w')
 
-    f1 = gzip.open('data/bioboot_2015a_R1.fastq.gz')
+    f1 = gzip.open('data/bioboot_2015a_R1.fastq.gz')  # the rest is identical to the previous one
     f2 = gzip.open('data/bioboot_2015a_R2.fastq.gz')
 
     for rname2 in f2:
