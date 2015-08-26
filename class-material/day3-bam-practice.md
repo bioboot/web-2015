@@ -4,17 +4,18 @@ layout: page
 
 ### III-2. Accessing aligned sequence reads in SAM/BAM format
 
-In this part, we will learn how to access SAM/BAM format files for genomic analysis.
+In this part, we will briefly learn how to access SAM/BAM format files for genomic analysis.
 
 1. Use `samtools` to view a BAM file within a specific region
    <pre>
    $ samtools view data/HG00096.chrom20.ILLUMINA.bwa.GBR.exome.20120522.bam 20:10000000 | less
    $ samtools view data/HG00096.chrom20.ILLUMINA.bwa.GBR.exome.20120522.bam 20:10000000 | less -S </pre>
-   - What is the difference between the two options? Which way is more convenient to you?
+   - What is the difference? Which way is more convenient to you?
+   - Can you interpret what you see on the screen?
 
 2. Understand how to read the BAM file header.
    <pre>
-   $ samtools view -H data/HG00096.chrom20.ILLUMINA.bwa.GBR.exome.20120522.bam </pre>
+   $ samtools view -H data/HG00096.chrom20.ILLUMINA.bwa.GBR.exome.20120522.bam | less -S </pre>
    - Which version of reference genome is it aligned to?
    - What is the sample ID for the sequence reads? In which center and by which platform was it sequenced?
    - Which software tools are used to produce the data?
@@ -32,6 +33,7 @@ In this part, we will learn how to access SAM/BAM format files for genomic analy
    - Does it look like a variant site or not?
    - Press `?` for more options.
    - [IGV](http://www.broadinstitute.org/igv) is more comprehensive tools to visualize BAM and sequence data.
+   - [UCSC Genome Browser](http://genome.ucsc.edu) also provides an interface to load aligned sequence reads.
 
 4. Create a pileup of sequence reads to process the sequence data by genomic coordinate
    - Generate the pileup of sequence reads around the variant site examined above
@@ -57,3 +59,8 @@ In this part, we will learn how to access SAM/BAM format files for genomic analy
        - Upper/lowercase alphebets represents mismatch to the refernece genome.
      - Which position appears to have a variant?
      - The pileup format from samtools is explained [HERE](http://samtools.sourceforge.net/pileup.shtml) in detail.
+
+Congratulations! Well done in understanding the basics of SAM/BAM format.
+<br>
+Now let's go to next step [Representing genes and transcripts using GTF and genePred format](../class-material/day3-gtf-practice.html)
+, or go back to [Day 3 Overview](../day3).
