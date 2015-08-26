@@ -12,12 +12,10 @@ layout: page
   cd day3_plotting
   </pre>
 
-  download the [read count dataset and notebook](http://bioboot.github.io/web-2015/class-material/day3_plotting_data.tar.gz)
+  download the [read count dataset and notebook](../class-material/day3_plotting_data.tar.gz)
 
   <pre>
   tar zxvf day3_plotting_data.tar.gz
-
-  cd material_for_flux
 
   ipython notebook
   </pre>
