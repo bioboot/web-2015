@@ -48,7 +48,6 @@ In this part, we will learn how to view FASTQ files from UNIX file system.
      $ zcat data/bioboot_2015a_R2.fastq.gz | wc -l </pre>
    - Do you think the files are paired? Why?
    - Let's check another way.
-   - Let's check whether the two FASTQ files are paired.
      <pre>
      $ zcat data/bioboot_2015a_R1.fastq.gz | head
      $ zcat data/bioboot_2015a_R2.fastq.gz | head </pre>
