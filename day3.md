@@ -73,7 +73,7 @@ Jacob Kitzman (JK)
 —- Coffee Break [15 mins] —  
 
 #### V) Visualization: Overview and Practice [1:30 hr] JK
-- [Data visualization for exploratory analysis](../class-material/day3-plotting1.md)
+- [Data visualization for exploratory analysis](../class-material/day3-plotting1.html)
 - Commonly used types of graphs
 - Basic graphing in ipython with matplotlib
 - Introduction to ggplot graphing
