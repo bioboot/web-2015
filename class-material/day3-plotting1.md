@@ -12,7 +12,11 @@ layout: page
 
   cd day3_plotting
 
-  # download http://bioboot.github.io/web-2015/class-material/day3_plotting_data.tar.gz
+  ```
+
+  download http://bioboot.github.io/web-2015/class-material/day3_plotting_data.tar.gz
+
+  ```
 
   tar zxvf day3_plotting_data.tar.gz
 
