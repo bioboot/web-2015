@@ -18,11 +18,11 @@ layout: page
   cd day4_cluster
   </pre>
 
-- download the [notebook](../class-material/read_counts_by_region.ipynb) for today  
-  - Note that you can view a render of this notebook directly on GitHub as well!
+- download the [data](../class-material/read_counts_by_region.tar.gz) for today to FLUX
+  - Note that you can view a render of this [notebook](../class-material/read_counts_by_region.ipynb) directly on GitHub as well!
 
   <pre>
-  wget https://github.com/bioboot/web-2015/blob/gh-pages/class-material/read_counts_by_region.ipynb
+  wget https://github.com/bioboot/web-2015/blob/gh-pages/class-material/read_counts_by_region.tar.gz
   </pre>
 
 - For this exercise, we will need to run ipython notebook on flux. As with yesterday, start a notebook server with the following commands
