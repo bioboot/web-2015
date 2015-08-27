@@ -4,7 +4,11 @@ layout: page
 
 ### V-1. Download example dataset and notebooks
 
-- Login to FLUX and navigate to your bootcamp scratch directory (cd /scratch/biobootcamp_fluxod/UNIQUENAME). If a directory with your uniquename does not exist, make it using
+- Login to FLUX and set up the same path we used yesterday when exploring genomic data formats
+  <pre>
+  export PATH=/home/hmkang/bioboot/bin:${PATH} 
+
+- Navigate to your bootcamp scratch directory (cd /scratch/biobootcamp_fluxod/UNIQUENAME). If a directory with your uniquename does not exist, make it using
 
   <pre>
   mkdir /scratch/biobootcamp_fluxod/UNIQUENAME
