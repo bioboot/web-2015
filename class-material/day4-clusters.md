@@ -33,7 +33,7 @@ layout: page
     2. you need to know which port your instance of ipython listens to.  The first few lines of output from ipython notebook will list this for you.
 
   <pre>
-  kitzmanj@<b>flux-login3</b>:/scratch/biobootcamp_fluxod/kitzmanj/biobootcamp$ ipython notebook --ip=<B>flux-login3</b> --no-browser
+  remills@<b>flux-login3</b>:/scratch/biobootcamp_fluxod/remills/biobootcamp$ ipython notebook --ip=<B>flux-login3</b> --no-browser
 
   [I 13:26:18.660 NotebookApp] Using MathJax from CDN: https://cdn.mathjax.org/mathjax/latest/MathJax.js
   [I 13:26:19.220 NotebookApp] The port 8888 is already in use, trying another random port.
