@@ -22,7 +22,6 @@ layout: page
 
   <pre>
   wget https://github.com/bioboot/web-2015/blob/gh-pages/class-material/read_counts_by_region.ipynb
-  gunzip day4_cluster.gz
   </pre>
 
 - For this exercise, we will need to run ipython notebook on flux. As with yesterday, start a notebook server with the following commands
