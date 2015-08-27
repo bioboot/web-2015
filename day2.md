@@ -54,7 +54,7 @@ Ryan Welch (RW)
 
 —- Lunch Break [1 hr] —  
 
-#### III)   Control Structures and Functions [1.15 hr] JdW ([iPython Notebook](../class-material/bioinf606.ipynb))   
+#### III)   Control Structures and Functions [1.15 hr] JdW ([iPython Notebook](https://github.com/bioboot/web-2015/blob/gh-pages/class-material/bioinf606.ipynb))   
 - Control structures and loops
 - Functions
 
