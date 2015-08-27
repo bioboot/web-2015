@@ -29,7 +29,7 @@ layout: page
 
 
   - Start a notebook server 
-  Notes:
+    - Notes:
     1. you need to know which host you're on.   The command line prompt will show this (e.g., <B>flux-login3</B>)
     2. you need to know which port your instance of ipython listens to.  The first few lines of output from ipython notebook will list this for you.
 
