@@ -40,7 +40,7 @@ Chris Scheller (CS)
 
 ### Topics:
 
-### I)   Version Control with Git [1:15 hr]  BG 
+### I)   Version Control with Git [1:15 hr]  BG ([Slides](../class-material/slides_day3-1_git.pdf))
 - What is VCS and Git?,  (10-15 mins)
 - Motivation: Why use Git?
  - Project snapshot history with rollbacks, Track changes from others, Sharing and updating mechanism, Keeping work organized and available.
@@ -53,7 +53,7 @@ Chris Scheller (CS)
 
 —- Coffee Break [15 mins] —
 
-### II)   Collaborating with GitHub & Bitbucket [1:30 hr]  BG
+### II)   Collaborating with GitHub [1:30 hr]  BG ([Slides](../class-material/slides_day3-2_github.pdf)) ([Tutoral](https://github.com/bioboot/demo2-github))
 - Online Remote Repositories GitHub & Bitbucket
  - Paradigm shift in software development (permissions and open development)
  - The GitHub steam-train and StackOverflow 
@@ -76,7 +76,7 @@ Chris Scheller (CS)
 
 —- Coffee Break [15 mins] —
 
-### IV)   Parallelization Strategies and Workflow Management [1.30 hr] RM
+### IV)   Parallelization Strategies & Workflow Management [1.30 hr] RM
 - Efficient utilization of clusters
  -  Streamlining and stratifying computational piplines 
 - Batch management and error checking
@@ -103,8 +103,8 @@ Chris Scheller (CS)
 [Comprehensive 'Git Pro' book](http://git-scm.com/book/en/v2/)  
 [GitHub home page](https://github.com/)  
 [GitHub help pages](https://help.github.com/)  
-[Bitbucket git tutorals](https://www.atlassian.com/git/)   
-[List of resources for learning git and github](https://help.github.com/articles/good-resources-for-learning-git-and-github/)  
+[Excellent Bitbucket git tutorals](https://www.atlassian.com/git/)   
+[List of good resources for learning git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)  
 
 [Flux cluster homepage](http://arc-ts.umich.edu/flux/)  
 [Flux training workshops](http://arc-ts.umich.edu/training-workshops/)  
