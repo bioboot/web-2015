@@ -31,6 +31,11 @@ Ryan Mills (RM)
 
 <br>
 
+### Class Questionnaire
+Please help us improve this course by completing this [questionnaire](http://tinyurl.com/bioboot-questions). 
+
+<br>
+
 ### Data Sets:
 - Genotype data for 465 individuals
   - [Remote site](ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/GEUV/E-GEUV-1/genotypes/)
