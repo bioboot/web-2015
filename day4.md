@@ -77,12 +77,7 @@ Chris Scheller (CS)
 —- Coffee Break [15 mins] —
 
 ### IV)   Parallelization Strategies & Workflow Management [1.30 hr] RM
-- Efficient utilization of clusters
- -  Streamlining and stratifying computational piplines 
-- Batch management and error checking
-- Checkpointing and restarting jobs
-- Job Dependencies
-- Generalizing across multiple computing environments
+- [Using Clusters for Exploring Large Data Datasets](../class-material/day4-clusters.html)
 
 —- End/Wrap-Up —
 
