@@ -18,7 +18,7 @@ layout: page
   </pre>
 
 - download the [data](https://github.com/bioboot/web-2015/raw/gh-pages/class-material/read_counts_by_region.tar.gz) for today to FLUX
-  - Note that you can view a render of this [notebook](../class-material/read_counts_by_region.ipynb) directly on GitHub as well!
+  - Note that you can view a render of this [notebook](https://github.com/bioboot/web-2015/blob/gh-pages/class-material/read_counts_by_region.ipynb) directly on GitHub as well!
 
   <pre>
   wget https://github.com/bioboot/web-2015/raw/gh-pages/class-material/read_counts_by_region.tar.gz
