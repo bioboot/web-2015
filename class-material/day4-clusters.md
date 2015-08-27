@@ -4,42 +4,28 @@ layout: page
 
 ### V-1. Download example dataset and notebooks
 
-- On your computer (with anaconda/ipython installed), download day3_plotting_data.tar.gz into a new directory (e.g., day3_plotting/ ) and unpack it
+- Login to FLUX and navigate to your bootcamp scratch directory (cd /scratch/biobootcamp_fluxod/UNIQUENAME). If a directory with your uniquename does not exist, make it using
+
+  <pre>
+  mkdir /scratch/biobootcamp_fluxod/UNIQUENAME
   
-  <pre>
-  mkdir day3_plotting
-
-  cd day3_plotting
-  </pre>
-
-  download the [read count dataset and notebook](../class-material/day3_plotting_data.tar.gz)
+- Once in your directory, create a subdirectory for today's segment
 
   <pre>
-  tar zxvf day3_plotting_data.tar.gz
+  mkdir day4_cluster
 
-  ipython notebook
+  cd day4_cluster
   </pre>
 
-  - Navigate to http://localhost:8888 and make a new notebook
-
-
-- Or, if you'd like to run ipython notebook on flux:
-  
-  <pre>
-  mkdir day3_plotting
-
-  cd day3_plotting
-  </pre>
-
-  copy the read count dataset and notebook
+- download the [notebook](../class-material/day4_cluster.gz) for today
 
   <pre>
-
-  cp /scratch/biobootcamp_fluxod/kitzmanj/biobootcamp/day3_plotting_data.tar.gz ./
-
-  tar zxvf day3_plotting_data.tar.gz
-
+  wget https://github.com/bioboot/web-2015/blob/gh-pages/class-material/day4_cluster.gz
+  gunzip day4_cluster.gz
   </pre>
+
+- For this exercise, we will need to run ipython notebook on flux. As with yesterday, start a notebook server with the following commands
+
 
   - Start a notebook server 
   Notes:
