@@ -17,10 +17,11 @@ layout: page
   cd day4_cluster
   </pre>
 
-- download the [notebook](../class-material/day4_cluster.gz) for today
+- download the [notebook](../class-material/read_counts_by_region.ipynb) for today  
+  - Note that you can view a render of this notebook directly on GitHub as well!
 
   <pre>
-  wget https://github.com/bioboot/web-2015/blob/gh-pages/class-material/day4_cluster.gz
+  wget https://github.com/bioboot/web-2015/blob/gh-pages/class-material/read_counts_by_region.ipynb
   gunzip day4_cluster.gz
   </pre>
 
