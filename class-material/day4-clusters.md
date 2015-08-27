@@ -8,6 +8,7 @@ layout: page
 
   <pre>
   mkdir /scratch/biobootcamp_fluxod/UNIQUENAME
+  cd /scratch/biobootcamp_fluxod/UNIQUENAME
   
 - Once in your directory, create a subdirectory for today's segment
 
