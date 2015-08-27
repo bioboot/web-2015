@@ -14,7 +14,6 @@ layout: page
 
   <pre>
   mkdir day4_cluster
-
   cd day4_cluster
   </pre>
 
@@ -23,6 +22,7 @@ layout: page
 
   <pre>
   wget https://github.com/bioboot/web-2015/raw/gh-pages/class-material/read_counts_by_region.tar.gz
+  tar zxvf read_counts_by_region.tar.gz
   cd read_counts_by_region
   </pre>
 
