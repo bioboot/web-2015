@@ -23,6 +23,7 @@ layout: page
 
   <pre>
   wget https://github.com/bioboot/web-2015/raw/gh-pages/class-material/read_counts_by_region.tar.gz
+  cd read_counts_by_region
   </pre>
 
 - For this exercise, we will need to run ipython notebook on flux. As with yesterday, start a notebook server with the following commands
