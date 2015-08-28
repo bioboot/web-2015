@@ -28,7 +28,8 @@ Typically, such research projects can take a very long time to generate the data
 ### Instructors:
 Ryan Mills (RM) 
 Jacob Kitzman (JK)
-Barry Grant (G)
+Barry Grant (BG)
+Hui Jiang (HJ)
 <br>
 
 ### Class Questionnaire
@@ -47,6 +48,6 @@ Please help us improve this course by completing this [questionnaire](http://tin
 <br>
 
 ### Project Resources
-- [eQTL Introduction Slides](../class-material/handout_day5_intro-eqtl.pdf)
+- [eQTL Introduction Slides](https://github.com/bioboot/web-2015/blob/gh-pages/class-material/handout_day5_intro-eqtl.pdf)
 - [ipython notebook - eQTL exercise](https://github.com/bioboot/web-2015/blob/gh-pages/class-material/Day5.ipynb)
 - [ipython notebook - eQTL exercise, with solutions](https://github.com/bioboot/web-2015/blob/gh-pages/class-material/Day5_solution.ipynb)
