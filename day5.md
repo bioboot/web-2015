@@ -28,7 +28,8 @@ Typically, such research projects can take a very long time to generate the data
 ### Instructors:
 Ryan Mills (RM) 
 Jacob Kitzman (JK)
-
+Barry Grant (BG)
+Hui Jiang (HJ)
 <br>
 
 ### Class Questionnaire
@@ -43,6 +44,11 @@ Please help us improve this course by completing this [questionnaire](http://tin
 - Expression data for 465 individuals
   - [Remote site](ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/GEUV/E-GEUV-1/analysis_results/)
   - Local FLUX directory: /scratch/biobootcamp_fluxod/remills/bioboot/geuvadis/analysis_results
+
+<br>
+
+### Project Resources
+- [eQTL Introduction Slides](https://github.com/bioboot/web-2015/blob/gh-pages/class-material/handout_day5_intro-eqtl.pdf)
 
 <br>
 
