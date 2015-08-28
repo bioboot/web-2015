@@ -26,10 +26,10 @@ Typically, such research projects can take a very long time to generate the data
 <br>
 
 ### Instructors:
-Ryan Mills (RM) 
-Jacob Kitzman (JK)
-Barry Grant (BG)
-Hui Jiang (HJ)
+Ryan Mills (RM)   
+Jacob Kitzman (JK)  
+Barry Grant (BG)  
+Hui Jiang (HJ)  
 <br>
 
 ### Class Questionnaire
