@@ -49,8 +49,5 @@ Please help us improve this course by completing this [questionnaire](http://tin
 ### General Workflow:
 
 ### Useful Resources
-<!--- files dont exist yet...
-[Slides-5.1]()
-[Slides-5.2]()
--->
-
+- [ipython notebook - eQTL exercise](https://github.com/bioboot/web-2015/blob/gh-pages/class-material/Day5.ipynb)
+- [ipython notebook - eQTL exercise, with solutions](https://github.com/bioboot/web-2015/blob/gh-pages/class-material/Day5_solution.ipynb)
