@@ -75,8 +75,8 @@ Jacob Kitzman (JK)
 #### V) Visualization: Overview and Practice [1:30 hr] JK
 - [Data visualization for exploratory analysis](../class-material/day3-plotting1.html)
 - [Useful plotting links](../class-material/day3-plotting2.html)
-- [ipython notebook - basic plotting](../class-material/basic_matplotlib_plots.ipynb)
-- [ipython notebook - read counts, X vs autosomes](../class-material/read_counts_by_chrom.ipynb)
+- [ipython notebook - basic plotting](https://github.com/bioboot/web-2015/blob/gh-pages/class-material/basic_matplotlib_plots.ipynb)
+- [ipython notebook - read counts, X vs autosomes](https://github.com/bioboot/web-2015/blob/gh-pages/class-material/read_counts_by_chrom.ipynb)
 
 —- End/Wrap-Up —
 
