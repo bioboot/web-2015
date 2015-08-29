@@ -92,21 +92,22 @@ layout: page
 <br>
 
 <br>
+<a name="other"></a>
 
-### Other courses  
-Mini course:  Introduction to Python  
+## Other courses  
+**Mini course**:  Introduction to Python  
 (Sept. 14 – 21,  8:30-10 AM)   
 <http://tinyurl.com/bioboot-1>  
 
-Workshops:   ARC On-campus HPC training  
+**Workshops**:   ARC On-campus HPC training  
 (Sept. 14 – Oct. 8,  1-5 PM)  
 <http://tinyurl.com/bioboot-3>  
 
-Full course:   BIOINF-575 Programing Lab in Bioinformatics  
+**Full course**:   BIOINF-575 Programing Lab in Bioinformatics  
 (Winter term)   
 <http://tinyurl.com/bioboot-4>
 
-Symposium:   Computational Discovery in Complex System Biology  
+**Symposium**:   Computational Discovery in Complex System Biology  
 (Sept. 22,  9-5 PM)  
 <http://tinyurl.com/bioboot-2>
 
