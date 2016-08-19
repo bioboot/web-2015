@@ -4,6 +4,8 @@ layout: page
 
 # Introduction to Biocomputing (BIOS/BIOI/HG 606) 
 
+For details of the 2016 version of this class please see our [new web site](https://bioboot.github.io/web-2016/).
+
 **Overview:** This hands-on boot camp introduces new graduate students to computational tools, techniques and best practices that foster reproducible research in bioinformatics, genome informatics and biostatistics.
 
 **Description:** Concepts and tools covered include the Unix system, version control, data management, software compilation, task automation and cluster computing. Participants will be encouraged to help one another and to apply what they have learned to their own research problems. Our tools of choice will be Python (for programming), Git (for version control) and PBS (for cluster resource management). However, lessons learned should be widely applicable for those looking to incorporate more productive computational approaches into their daily research work.
