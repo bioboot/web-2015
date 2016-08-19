@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Introduction to Biocomputing (BIOS/BIOI/HG 606) 
+# Introduction to Biocomputing 2015 (BIOS/BIOI/HG 606) 
 
 For details of the 2016 version of this class please see our [new web site](https://bioboot.github.io/web-2016/).
 
